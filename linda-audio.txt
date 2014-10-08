@@ -1,0 +1,288 @@
+('.form .link-text:first').hide();
+
+$('.link-text:first').hide();
+$('.link-text').css({'font-size':'16px','font-weight':'bold'});
+
+
+"India" "England" "Indianapolis" "Don’t know"
+
+"18" "80" "16" "Don’t know"
+"He hasn’t" "2 weeks ago" "2 years ago" "Don’t know"
+
+"He couldn’t afford it" "He was too late" "There wasn’t a bus service" "Don’t know"
+
+"A restaurant owner" "A chef" "A driver" "Don’t know"
+
+"More than 12 million" "Less than 12 million" "69,484" "Don’t know"
+
+"To be at home" "To be employed" "To be unemployed" "Don’t know"
+
+/*********************************/
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js">
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+
+$('#post-7 h1').hide();
+
+$('#g1').on('change', function() {
+var t1= $(this).val() ;
+if(t1=="see"){t1 =1}else{ t1=0};
+$('#g_filed1').val(t1) ;
+if(t1!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+$('#g2').on('change', function() {
+var t2= $(this).val() ;
+if(t2=="are reading"){t2 =1}else{ t2=0};
+$('#g_filed2').val(t2) ;
+if(t2!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g3').on('change', function() {
+var t3= $(this).val() ;
+if(t3=="Are you going"){t3 =1}else{ t3=0};
+$('#g_filed3').val(t3) ;
+if(t3!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g4').on('change', function() {
+var t4= $(this).val() ;
+if(t4=="Would"){t4 =1}else{ t4=0};
+$('#g_filed4').val(t4) ;
+if(t4!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g5').on('change', function() {
+var t5= $(this).val() ;
+if(t5=="lots"){t5 =1}else{ t5=0};
+$('#g_filed5').val(t5) ;
+if(t5!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g6').on('change', function() {
+var t6= $(this).val() ;
+if(t6=="for"){t6 =1}else{ t6=0};
+$('#g_filed6').val(t6) ;
+if(t6!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g7').on('change', function() {
+var t7= $(this).val() ;
+if(t7=="fly"){t7 =1}else{ t7=0};
+$('#g_filed7').val(t7) ;
+if(t7!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g8').on('change', function() {
+var t8= $(this).val() ;
+if(t8=="eaten"){t8 =1}else{ t8=0};
+$('#g_filed8').val(t8) ;
+if(t8!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g9').on('change', function() {
+var t9= $(this).val() ;
+if(t9=="wouldn't have gone"){t9 =1}else{ t9=0};
+$('#g_filed9').val(t9) ;
+if(t9!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g10').on('change', function() {
+var t10= $(this).val() ;
+if(t10=="do"){t10 =1}else{ t10=0};
+$('#g_filed10').val(t10) ;
+if(t10!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g11').on('change', function() {
+var t11= $(this).val() ;
+if(t11=="people"){t11 =1}else{ t11=0};
+$('#g_filed11').val(t11) ;
+if(t11!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g12').on('change', function() {
+var t12= $(this).val() ;
+if(t12=="for"){t12 =1}else{ t12=0};
+$('#g_filed12').val(t12) ;
+if(t12!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g13').on('change', function() {
+var t13= $(this).val() ;
+if(t13=="‘ve never been"){t13 =1}else{ t13=0};
+$('#g_filed13').val(t13) ;
+if(t13!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g14').on('change', function() {
+var t14= $(this).val() ;
+if(t14=="gets to / at"){t14 =1}else{ t14=0};
+$('#g_filed14').val(t14) ;
+if(t14!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g15').on('change', function() {
+var t15= $(this).val() ;
+if(t15=="ever"){t15 =1}else{ t15=0};
+$('#g_filed15').val(t15) ;
+if(t15!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g16').on('change', function() {
+var t16= $(this).val() ;
+if(t16=="quickly"){t16 =1}else{ t16=0};
+$('#g_filed16').val(t16) ;
+if(t16!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g17').on('change', function() {
+var t17= $(this).val() ;
+if(t17=="Yes, she does"){t17 =1}else{ t17=0};
+$('#g_filed17').val(t17) ;
+if(t17!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g18').on('change', function() {
+var t18= $(this).val() ;
+if(t18=="Pleased to meet you too"){t18 =1}else{ t18=0};
+$('#g_filed18').val(t18) ;
+if(t18!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g19').on('change', function() {
+var t19= $(this).val() ;
+if(t19=="I’ll open the window"){t19 =1}else{ t19=0};
+$('#g_filed19').val(t19) ;
+if(t19!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g20').on('change', function() {
+var t20= $(this).val() ;
+if(t20=="He’s a supplier"){t20 =1}else{ t20=0};
+$('#g_filed20').val(t20) ;
+if(t20!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+
+$( ".wpcf7-submit" ).click(function() {
+var c1 = parseInt(g_filed1.value);
+var c2 = parseInt(g_filed2.value);
+var c3 = parseInt(g_filed3.value);
+var c4 = parseInt(g_filed4.value);
+var c5= parseInt(g_filed5.value);
+var c6 = parseInt(g_filed6.value);
+var c7 = parseInt(g_filed7.value);
+var c8 = parseInt(g_filed8.value);
+var c9 = parseInt(g_filed9.value);
+var c10 = parseInt(g_filed10.value);
+var c11 = parseInt(g_filed11.value);
+var c12 = parseInt(g_filed12.value);
+var c13 = parseInt(g_filed13.value);
+var c14 = parseInt(g_filed14.value);
+var c15 = parseInt(g_filed15.value);
+var c16 = parseInt(g_filed16.value);
+var c17 = parseInt(g_filed17.value);
+var c18 = parseInt(g_filed18.value);
+var c19 = parseInt(g_filed19.value);
+var c20 = parseInt(g_filed20.value);
+
+var ttc=c1+c2 +c3+c4+c5+c6+c7+c8+c9+c10+c11+c12+c13+c14+c15+c16+c17+c18+c19+c20;
+alert(ttc);
+$('#gresultat').val(ttc);
+});
+
+$('#g21').on('change', function() {
+var t21= $(this).val() ;
+if(t21=="Indianapolis"){t21 =1}else{ t21=0};
+$('#g_filed21').val(t21) ;
+if(t21!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+$('#g22').on('change', function() {
+var t22= $(this).val() ;
+if(t22=="18"){t22 =1}else{ t22=0};
+$('#g_filed22').val(t22) ;
+if(t22!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g23').on('change', function() {
+var t23= $(this).val() ;
+if(t23=="2 years ago"){t23 =1}else{ t23=0};
+$('#g_filed23').val(t23) ;
+if(t23!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g24').on('change', function() {
+var t24= $(this).val() ;
+if(t24=="Fast food restaurant"){t24 =1}else{ t24=0};
+$('#g_filed24').val(t24) ;
+if(t24!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g25').on('change', function() {
+var t25= $(this).val() ;
+if(t25=="Supplies"){t25 =1}else{ t25=0};
+$('#g_filed25').val(t25) ;
+if(t25!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g26').on('change', function() {
+var t26= $(this).val() ;
+if(t26=="He couldn’t afford it"){t26 =1}else{ t26=0};
+$('#g_filed26').val(t26) ;
+if(t26!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g27').on('change', function() {
+var t27= $(this).val() ;
+if(t27=="A restaurant owner"){t27 =1}else{ t27=0};
+$('#g_filed27').val(t27) ;
+if(t27!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g28').on('change', function() {
+var t28= $(this).val() ;
+if(t28=="A lift"){t28 =1}else{ t28=0};
+$('#g_filed28').val(t28) ;
+if(t28!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g29').on('change', function() {
+var t29= $(this).val() ;
+if(t29=="More than 12 million"){t29 =1}else{ t29=0};
+$('#g_filed29').val(t29) ;
+if(t29!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$('#g30').on('change', function() {
+var t30= $(this).val() ;
+if(t30=="To be unemployed"){t30 =1}else{ t30=0};
+$('#g_filed30').val(t30) ;
+if(t30!="Select"){$(this).css( "background", "#4EEC10" );};
+});
+
+$( ".wpcf7-submit" ).click(function() {
+var c21 = parseInt(g_filed21.value);
+var c22 = parseInt(g_filed22.value);
+var c23 = parseInt(g_filed23.value);
+var c4 = parseInt(g_filed24.value);
+var c25= parseInt(g_filed25.value);
+var c26 = parseInt(g_filed26.value);
+var c27 = parseInt(g_filed27.value);
+var c28 = parseInt(g_filed28.value);
+var c29 = parseInt(g_filed29.value);
+var c30 = parseInt(g_filed30.value);
+
+
+var ttc2=c21+c22 +c23+c24+c25+c26+c27+c28+c29+c30;
+$('#gresultat2').val(ttc2);
+
+});
+});
+</script>
+
+
+
+ 

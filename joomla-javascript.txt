@@ -1,0 +1,8 @@
+//insert jquery Joomla
+$document= JFactory::getDocument();
+$document->addScript(JURI::base().'monchemin.js');
+
+$script=JRequest::getString('view');
+$script.=JRequest::getInt('id');
+
+$document->addScript(JURI::base().'mesScripts/'.$script.'.js');

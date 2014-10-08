@@ -1,6 +1,8 @@
+/* Rendre le premiere element invisible */
 ('.form .link-text:first').hide();
 
 $('.link-text:first').hide();
+/* mise en forme des autres elements */
 $('.link-text').css({'font-size':'16px','font-weight':'bold'});
 
 

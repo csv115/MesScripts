@@ -1,4 +1,5 @@
 //insert jquery Joomla
+//ajout de commentaires
 $document= JFactory::getDocument();
 $document->addScript(JURI::base().'monchemin.js');
 
